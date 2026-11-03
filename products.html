@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commercial & Industrial Chemical Products | Kingsford British Chemical Industries</title>
+  <meta name="description" content="Explore Kingsford British Chemical Industries' 6 industrial chemical lines: Multi-Surface Disinfectant, Heavy-Duty Degreaser, Ultra Glass Polish, Eco Floor Cleaner, Bio-Enzymatic Drain Pro, and High-Foam Fleet Wash.">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%2306b6d4'/><text x='50%' y='68%' font-size='55' font-family='sans-serif' font-weight='900' fill='white' text-anchor='middle'>K</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="bg-glow-orb bg-orb-1"></div>
+  <div class="bg-glow-orb bg-orb-2"></div>
+
+  <!-- Header -->
+  <header class="header-main">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo" aria-label="Kingsford British Chemical Industries Homepage">
+        <div class="logo-badge">K</div>
+        <div class="brand-text">
+          <span class="title">Kingsford British Chemical Industries</span>
+          <span class="tagline">Advanced Formulations</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="products.html" class="nav-link active">Products (6)</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="industries.html" class="nav-link">Industries</a></li>
+          <li><a href="safety.html" class="nav-link">Safety & SDS</a></li>
+          <li><a href="faq.html" class="nav-link">FAQ</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="mobile-nav-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header Banner -->
+  <section style="padding: 4.5rem 0 2.5rem; text-align: center; border-bottom: 1px solid var(--border-glass); background: linear-gradient(180deg, var(--primary-900) 0%, var(--bg-dark) 100%);">
+    <div class="container" style="max-width: 780px;">
+      <span class="section-tag"><i class="fas fa-flask"></i> Commercial Chemical Catalog</span>
+      <h1 class="section-title" style="font-size: 2.8rem; margin-top: 0.5rem;">Our 6 Core Chemical Solutions</h1>
+      <p class="section-desc">
+        Explore our laboratory-developed commercial and industrial formulations. High active concentrates, rigorously tested for maximum efficiency, safety, and strict regulatory compliance.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Products Catalog Section -->
+  <main class="products-section">
+    <div class="container">
+      <!-- Filter and Search Controls -->
+      <div class="product-controls">
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All 6 Formulations</button>
+          <button class="filter-btn" data-filter="disinfectant">Disinfection</button>
+          <button class="filter-btn" data-filter="degreaser">Industrial Degreasers</button>
+          <button class="filter-btn" data-filter="janitorial">Janitorial</button>
+          <button class="filter-btn" data-filter="eco-friendly">Eco-Green</button>
+          <button class="filter-btn" data-filter="specialty">Bio-Enzymatic</button>
+          <button class="filter-btn" data-filter="automotive">Fleet Wash</button>
+        </div>
+
+        <div class="product-search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="productSearchInput" class="product-search-input" placeholder="Search product name, SDS code, or application...">
+        </div>
+      </div>
+
+      <!-- Products Grid (All 6 Products) -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Technical Formulation Info Box -->
+  <section style="padding: 4rem 0 5rem; background: var(--bg-card); border-top: 1px solid var(--border-glass); border-bottom: 1px solid var(--border-glass);">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+        <div style="padding: 1.5rem; border: 1px solid var(--border-glass); border-radius: var(--radius-md);">
+          <div style="font-size: 1.5rem; color: var(--accent-cyan); margin-bottom: 0.75rem;"><i class="fas fa-box-open"></i></div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.15rem; margin-bottom: 0.4rem;">Packaging Options</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">
+            Available from 1-gallon jugs and 5-gallon pails to 55-gallon steel/poly drums and 275-gallon IBC totes with camlock valves.
+          </p>
+        </div>
+
+        <div style="padding: 1.5rem; border: 1px solid var(--border-glass); border-radius: var(--radius-md);">
+          <div style="font-size: 1.5rem; color: var(--accent-emerald); margin-bottom: 0.75rem;"><i class="fas fa-vial"></i></div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.15rem; margin-bottom: 0.4rem;">Evaluation Samples</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">
+            Qualified facility directors and commercial contractors can request complimentary trial jugs to verify compatibility and efficacy.
+          </p>
+        </div>
+
+        <div style="padding: 1.5rem; border: 1px solid var(--border-glass); border-radius: var(--radius-md);">
+          <div style="font-size: 1.5rem; color: var(--accent-amber); margin-bottom: 0.75rem;"><i class="fas fa-file-contract"></i></div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.15rem; margin-bottom: 0.4rem;">Custom Contract Blending</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">
+            Need specific viscosities, colors, or private labeling? We synthesize custom formulations tailored to your regional specifications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="Kingsford British Chemical Industries">
+            <div class="logo-badge">K</div>
+            <div class="brand-text">
+              <span class="title">Kingsford British Chemical Industries</span>
+              <span class="tagline">Advanced Formulations</span>
+            </div>
+          </a>
+          <p>
+            Pioneering industrial and commercial cleaning chemistry with cutting-edge active complexes, biodegradable formulas, and certified OSHA/GHS compliance.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Product Lines</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">Disinfectant Pro</a></li>
+            <li><a href="products.html">Heavy-Duty Degreaser</a></li>
+            <li><a href="products.html">Ultra Glass Polish</a></li>
+            <li><a href="products.html">Eco Floor Cleaner</a></li>
+            <li><a href="products.html">Bio-Enzymatic Drain Pro</a></li>
+            <li><a href="products.html">High-Foam Pressure Wash</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">All 6 Products</a></li>
+            <li><a href="about.html">About Kingsford</a></li>
+            <li><a href="industries.html">Industries Served</a></li>
+            <li><a href="safety.html">Safety & SDS Portal</a></li>
+            <li><a href="faq.html">FAQ & Guides</a></li>
+            <li><a href="contact.html">Contact & Quote</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col newsletter-box">
+          <h4>Industry Technical Bulletin</h4>
+          <p>Subscribe to receive quarterly sanitation regulatory updates, EPA advisories, and formulation bulletins.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="facility@organization.com" required>
+            <button type="submit" class="btn btn-primary btn-sm"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Kingsford British Chemical Industries Ltd. All rights reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Supply</a>
+          <a href="#">GHS Compliance</a>
+          <a href="#">EPA Safer Choice</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Specifications & SDS Modal -->
+  <div class="modal-overlay" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalProductTitle">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" onclick="closeProductModal()" aria-label="Close Dialog">
+        <i class="fas fa-times"></i>
+      </button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toastContainer"></div>
+  <script src="app.js"></script>
+</body>
+</html>
